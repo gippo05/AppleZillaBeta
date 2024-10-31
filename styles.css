@@ -1,0 +1,282 @@
+.d-block{
+    height: 400px;
+   
+}
+
+.logo{
+    height: 80px;
+}
+.star{
+    height: 100px;
+}
+
+.animation{
+    animation: fadeUp 3s;
+}
+
+
+@media screen and (max-width: 767px){
+    body{
+        background-color: #e8e8e8;
+    }
+    span{
+        text-decoration: underline;
+    }
+    .Main{
+        background-color: white;
+        background-image: url("./images/bg5.svg");
+        background-repeat:no-repeat;
+        background-size: 800px;
+        background-position:center;
+        height: 400px;
+        width: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        animation: fade 3s;
+    }
+    .welcome-note{
+        font-size: 2.5rem;
+        margin: 5px;
+        font-weight: lighter;
+        animation: fadeDown 3s;
+    }
+    .hello-button{
+        margin-top: 25px;
+        animation: fadeUp 3s;
+    }
+    .chat-button{
+        padding: 10px;
+        text-align: center;
+        color: White;
+        border: 2px solid black;
+        border-radius: 50px;
+        text-decoration: none;
+        background-color: black;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .button2{
+        padding: 10px;
+        text-align: center;
+        color: black;
+        border: 2px solid black;
+        border-radius: 50px;
+        text-decoration: none;
+        background-color: white;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .cracked{
+        height: 150px;
+        width: 150px;
+        margin-left: 90px;
+    }
+    .starting-price{
+        margin-top: 6rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        background-color: white;
+        padding: 20px;
+        padding-bottom: 2rem;
+    }
+    .starting-price h3{
+        font-size: 2rem;
+    }
+    .starting-price a{
+        margin-top: 1.5rem;
+    }
+    .lowest{
+        font-size: 1.3rem;
+        position: relative;
+        top: 45px;
+        padding-left: 46px;
+        margin-bottom: 80px;
+    }
+    .phone{
+        height: 80px;
+    }
+    .person{
+        height: 100px;
+        border: 1px solid black;
+        border-radius: 50%;
+        position: relative;
+        left: 20px;
+        top: 40px;
+    }
+    .star{
+        margin: 0;
+        position: relative;
+        bottom: 70px;
+        left: 140px;
+    }
+    .services{
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 2rem;
+        animation: fadeUp 3s;
+    }
+    .card{
+        margin: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        border-radius: 10px;
+        padding: 10px;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        font-size: 1rem;
+        width: 300px;
+    }
+    .card-pic{
+        height: 50px;
+    }
+    .devices{
+        background-color: white;
+    }
+    .devices h5{
+        padding-left: 120px;
+    }
+    .grid{
+        display: grid;
+        grid-template-columns: auto auto auto;
+        padding: 10px;
+        gap: 10px 10px;
+        
+    }
+    .grid-items{
+        display: flex;
+        justify-content: center;
+        border-radius: 10px;
+        padding: 10px;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        font-size: 1rem;
+    }
+    .Reviews{
+        padding-top: 50px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .cx{
+        background-color: white;
+        border-radius: 10px;
+        padding: 10px;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 10px;
+        font-size: 1rem;
+        margin: 10px;
+        max-width: 300px;
+        max-height: 300px;
+        gap: 0px;
+    }
+    .pname{
+        position: relative;
+        left: 150px;
+        bottom: 40px;
+        max-width: 80px;
+    }
+    .preview{
+        position: relative;
+        bottom: 50px;
+    }
+    .Shop{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: white;
+        height: 300px;
+        padding: 10px;
+    }
+    .Shop p{
+        margin-bottom: 50px;
+        margin-top: 50px;
+        max-width: 300px;
+        text-align: justify;
+    }
+    .Shop h3{
+        max-width: 300px;
+    }
+    .bottom-container {
+        gap: 20px;
+        margin: 20px;
+      }
+      .footer-container{
+        background-color: White;
+        padding: 20px 0;
+        position: relative;
+        margin-bottom: 0;
+      }
+      .footer-links{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+      }
+      .footer-links a{
+        text-decoration: none;
+        color: black;
+      }
+    .copyright{
+      padding-top: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1rem;
+      color: Black;
+    }
+    .about{
+        background-color: white;
+        margin-top: 100px;
+        padding-top: 25px;
+    }
+    .aboutpic{
+        height: 400px;
+    }
+    .little{
+        display: flex;
+        justify-content: center;
+        font-size: 2rem;
+        margin-bottom: 50px;
+    }
+    .abtcard{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 20px;
+        margin-bottom: 0;
+        text-align: justify;
+        letter-spacing: -1px;
+    }
+    @keyframes fadeUp{
+        0% {opacity: 0;
+            transform: translateY(70px);}
+        100% {opacity: 1;
+        transform: translateY(0);}
+    }
+    @keyframes fadeDown{
+        0% {opacity: 0;
+            transform: translateY(-70px);}
+        100% {opacity: 1;
+        transform: translateY(0);}
+    }
+    @keyframes fade{
+        0% {opacity: 0;
+            transform: translateY(0);}
+        100% {opacity: 1;
+        transform: translateY(0);}
+    }
+    .swiper{
+        display: flex;
+        /* height: 100px; */
+        justify-content: center;
+        align-items: center;
+        max-width: 300px;
+    }
+      
+}
